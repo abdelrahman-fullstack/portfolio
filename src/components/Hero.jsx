@@ -28,22 +28,22 @@ function Hero() {
             Full Stack Developer
           </h2>
           <p style={{ fontSize: '1.05rem', color: '#9ca3af', marginBottom: '35px', lineHeight: '1.8' }}>
-            A results-driven Computer Science graduate specializing in building robust full stack web applications. Experienced in developing dynamic, responsive user interfaces with <span style={{ color: '#22d3ee' }}>React.js</span> and engineering secure, scalable RESTful APIs using <span style={{ color: '#f87171' }}>Laravel</span> and <span style={{ color: '#4ade80' }}>Node.js</span>.
+            I'm a Junior Full Stack Developer passionate about building modern, responsive, and scalable web applications using React, Laravel, and MySQL. I enjoy turning ideas into real-world products, writing clean and maintainable code, and continuously learning new technologies to improve my skills.
+            <span style={{ color: '#22d3ee' }}>React.js</span> and engineering secure, scalable RESTful APIs using <span style={{ color: '#f87171' }}>Laravel</span> and <span style={{ color: '#4ade80' }}>Node.js</span>.
           </p>
 
          
           <div style={{ display: 'flex', gap: '20px', marginBottom: '20px', justifyContent: 'flex-start', paddingRight: '5px' }}>
-            {/* رابط لينكد إن - ضيف لينك حسابك مكان الـ # */}
+           
             <a href="https://www.linkedin.com/in/abdelrahman-mohamed-a7b7aa251" target="_blank" rel="noreferrer" style={{ color: '#9ca3af', fontSize: '1.7rem', transition: '0.3s' }} onMouseOver={(e) => e.target.style.color = '#0077b5'} onMouseOut={(e) => e.target.style.color = '#9ca3af'}>
               <FaLinkedin />
             </a>
             
-            {/* رابط جيت هاب - ضيف لينك حسابك مكان الـ # */}
             <a href="https://github.com/abdelrahman-fullstack" target="_blank" rel="noreferrer" style={{ color: '#9ca3af', fontSize: '1.7rem', transition: '0.3s' }} onMouseOver={(e) => e.target.style.color = '#ffffff'} onMouseOut={(e) => e.target.style.color = '#9ca3af'}>
               <FaGithub />
             </a>
 
-            {/* رابط الجيميل - اكتب إيميلك مكان البريد المكتوب */}
+        
             <a href="mailto:abdelrahmanelsalakany5@gmail.com" style={{ color: '#9ca3af', fontSize: '1.7rem', transition: '0.3s' }} onMouseOver={(e) => e.target.style.color = '#ea4335'} onMouseOut={(e) => e.target.style.color = '#9ca3af'}>
               <SiGmail />
             </a>
@@ -54,8 +54,7 @@ function Hero() {
                 <a href="#projects" className="btn-primary">
                     View My Work
                 </a>
-                
-                {/* زرار استعراض الـ CV الاحترافي */}
+            
                 <a 
                     href="/Abdelrahman_Mohamed_Salah_CV.pdf" 
                     target="_blank" 
