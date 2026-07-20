@@ -1,0 +1,89 @@
+@import "tailwindcss";
+/* إعدادات الصفحة العامة */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0b0f19;
+  color: #f3f4f6;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* حاوية الأنيميشن والخلفيات المضيئة */
+.gradient-bg {
+  position: relative;
+  background: radial-gradient(circle at 50% 50%, #1e1b4b 0%, #0b0f19 100%);
+  padding: 100px 20px;
+  text-align: center;
+}
+
+/* العناوين الملونة */
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(to right, #38bdf8, #818cf8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+/* أزرار احترافية */
+.btn-primary {
+  display: inline-block;
+  padding: 12px 30px;
+  background: linear-gradient(to right, #2563eb, #06b6d4);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.6);
+}
+
+/* كروت المشاريع */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.project-card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: right;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: #3b82f6;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.tech-badge {
+  background: #1e3a8a;
+  color: #93c5fd;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 8px;
+  display: inline-block;
+}
