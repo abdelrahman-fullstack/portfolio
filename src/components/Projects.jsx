@@ -5,63 +5,63 @@ function Projects() {
     {
       id: 1,
       title: "SkillSwap Platform",
-      description: "منصة ويب لتبادل المهارات والخبرات بين المستخدمين مجانًا دون معاملات مالية. تشمل مطابقة المستخدمين حسب المهارات المطلوبة والمعروضة، ونظام محادثات وإشعارات وتقييمات لبناء مجتمع تعاوني.",
+      description: "An online web platform for exchanging skills and expertise among users for free without financial transactions. Features user matching based on requested and offered skills, a chat system, notifications, and reviews to build a collaborative community.",
       tech: ["React.js", "Laravel", "MySQL", "REST API", "WebSockets"],
       link: "https://github.com/abdelrahman-fullstack"
     },
     {
       id: 2,
       title: "E-Commerce Web Application",
-      description: "تطبيق تجارة إلكترونية يتيح استعراض المنتجات وإدارة عربة التسوق والطلبات، مع إمكانية إدارة المنتجات والعمليات من خلال لوحة تحكم للمشرفين.",
+      description: "An e-commerce application allowing users to browse products, manage their shopping cart, and place orders, along with an admin dashboard to manage products and operations.",
       tech: ["Laravel", "MySQL", "PHP", "Bootstrap"],
       link: "https://github.com/abdelrahman-fullstack"
     },
     {
       id: 3,
       title: "Event Registration System",
-      description: "نظام لإدارة الفعاليات والتسجيل فيها، يدعم إنشاء الحسابات وتسجيل الدخول، وإنشاء الفعاليات وعرضها والتسجيل بها وإلغاء التسجيل، مع التحقق من سعة الفعالية ومنع التسجيل المكرر وحماية المسارات.",
+      description: "An event management and registration system supporting user authentication, event creation, browsing, registration, and cancellation, with capacity checks, duplicate prevention, and route protection.",
       tech: ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT"],
       link: "https://github.com/abdelrahman-fullstack"
     },
     {
       id: 4,
       title: "Restaurant Management System",
-      description: "نظام لإدارة عمليات المطاعم يشمل تنظيم الطلبات والطاولات والحجوزات وقائمة الطعام والمخزون، مع واجهات API لتنفيذ العمليات والتحقق من توافر الطاولات وتحديث المخزون.",
+      description: "A system for managing restaurant operations including orders, tables, reservations, menus, and inventory, featuring REST APIs for processing operations, checking table availability, and updating inventory.",
       tech: ["Express.js", "Node.js", "Database", "REST API"],
       link: "https://github.com/abdelrahman-fullstack"
     },
     {
       id: 5,
       title: "Job Portal Application",
-      description: "منصة توظيف تربط الباحثين عن عمل بأصحاب الشركات، وتتيح نشر الوظائف والبحث عنها وتصفيتها والتقديم عليها، مع لوحات تحكم لإدارة الوظائف والطلبات والمستخدمين.",
+      description: "A job platform connecting job seekers with companies, enabling job postings, searching, filtering, and applying, complete with dashboards for managing jobs, applications, and users.",
       tech: ["PHP", "Laravel", "MySQL", "REST API"],
       link: "https://github.com/abdelrahman-fullstack"
     },
     {
       id: 6,
       title: "Student Management System",
-      description: "نظام لإدارة بيانات الطلاب يتيح إضافة السجلات وتعديلها وحذفها وعرضها، مع تنظيم البيانات وتسهيل عمليات إدارتها من خلال واجهة استخدام واضحة.",
+      description: "A student data management system enabling users to add, update, delete, and view student records, organizing data for smooth administrative operations through a clear interface.",
       tech: ["CRUD", "REST API", "Database", "Web Development"],
       link: "https://github.com/abdelrahman-fullstack"
     },
     {
       id: 7,
       title: "Expense Tracker",
-      description: "تطبيق لإدارة المصروفات يساعد المستخدمين على تسجيل معاملاتهم المالية وتنظيمها ومتابعة الإنفاق، مع إمكانية تطوير لوحة معلومات وتقارير لتوضيح أنماط المصروفات.",
+      description: "A finance application helping users record financial transactions, organize them, and track spending, with dashboards and reports to illustrate spending patterns.",
       tech: ["JavaScript", "React.js", "API", "Database"],
       link: "https://github.com/abdelrahman-fullstack"
     },
     {
       id: 8,
       title: "Grove Market",
-      description: "مشروع واجهة متجر إلكتروني لعرض المنتجات بطريقة منظمة وجذابة، مع التركيز على تصميم تجربة مستخدم سهلة ومتجاوبة مع مختلف أحجام الشاشات.",
+      description: "An e-commerce frontend store project showcasing products in an organized and attractive layout, focusing on an intuitive and responsive user experience across various screen sizes.",
       tech: ["React.js", "Tailwind CSS", "JavaScript", "Responsive Design"],
       link: "https://github.com/abdelrahman-fullstack"
     },
     {
       id: 9,
       title: "Bean & Bite Landing Page",
-      description: "صفحة هبوط لمشروع في مجال الطعام والمشروبات، بتصميم عصري يبرز هوية العلامة التجارية ويعرض المحتوى بطريقة جذابة مع مراعاة سهولة الاستخدام والتوافق مع الشاشات المختلفة.",
+      description: "A landing page for a food and beverage project featuring a modern design that highlights brand identity and presents content engagingly with a focus on usability and responsiveness.",
       tech: ["React.js", "CSS", "JavaScript", "Responsive Design"],
       link: "https://github.com/abdelrahman-fullstack"
     }
@@ -70,8 +70,8 @@ function Projects() {
   return (
     <section id="projects" style={{ padding: '80px 0', borderTop: '1px solid #1f2937' }}>
       <div style={{ textAlign: 'center', marginBottom: '50px' }}>
-        <h2 style={{ fontSize: '2.5rem', fontWeight: 'bold', color: '#fff' }}>المشاريع الحالية</h2>
-        <p style={{ color: '#9ca3af', marginTop: '10px' }}>أبرز التطبيقات التي قمت بتطويرها</p>
+        <h2 style={{ fontSize: '2.5rem', fontWeight: 'bold', color: '#fff' }}>Featured Projects</h2>
+        <p style={{ color: '#9ca3af', marginTop: '10px' }}>Some of the applications I have built</p>
       </div>
 
       <div className="projects-grid">
